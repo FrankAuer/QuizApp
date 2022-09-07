@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: blue !important;
+}
+
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.question-footer {
+
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.quiz-card{
+    width: 40rem;
+}
+
+
+/* .quiz-answer-card{
+
+
+} */
+
+.quiz-answer-card:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+  
+    font-weight: bolder;
+}
+
+.bg-success, .bg-danger{
+    color: white;
+}
+
+
+.no-display{
+    display: none !important;
+    
+}
