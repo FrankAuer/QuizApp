@@ -20,7 +20,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -29,11 +28,6 @@ body {
 }
 
 
-/* .quiz-answer-card{
-
-
-} */
-
 .quiz-answer-card:hover{
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.05);
@@ -41,12 +35,30 @@ body {
     font-weight: bolder;
 }
 
+
 .bg-success, .bg-danger{
     color: white;
+}
+
+
+.result{
+    text-align: center !important;
 }
 
 
 .no-display{
     display: none !important;
     
+}
+
+
+.progress{
+    width: 100%;
+}
+
+
+.newGame{
+    
+    margin-top: 24px;
+
 }

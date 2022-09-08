@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="/style.css">
 
 
-
-
     <!-- Bootstripe Files -->
 
     <!-- CSS only -->
@@ -38,13 +36,19 @@
 
     <div class="main">
         <div class="card quiz-card">
-            <img src="/img/quizword.jpg" class="card-img-top">
+            <img src="/img/quizword.jpg" class="card-img-top" id="questionImage">
 
-            <div class="card-body" id="result" style="display:none">
-            
-                 <h4>Quiz beendet!</h4>   
+            <div class="progress">
+                <div id="process-bar" class="progress-bar" role="progressbar">25%</div>
+            </div>
 
-                <span id="result"> </span>
+            <div class="card-body result" id="result" style="display:none">
+
+                <h4>Quiz beendet!</h4>
+
+                <div id="resultText"> </div>
+
+               <button class="newGame btn btn-primary" onclick="newStart()">Neustart!</button>
 
             </div>
 
